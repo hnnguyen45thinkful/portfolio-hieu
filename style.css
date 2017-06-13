@@ -276,3 +276,20 @@ h4 {
 .white-text {
   color: white;
 }
+
+.profilepic {
+  float: center;
+}
+
+
+.profilepic img {
+  width: 250px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+    border-radius: 50%;
+
+}
