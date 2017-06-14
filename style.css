@@ -180,9 +180,16 @@ h4 {
 }
 
 .job-title {
-  float: right;
+        float:right; 
+        clear:right; 
+        margin-top: -50px; 
 }
 
+.job-title2 {
+        float:right; 
+        clear:right; 
+        margin-top: -50px; 
+}
 /*PROJECTS*/
 .project-card {
   display: flex;
@@ -284,12 +291,20 @@ h4 {
 
 .profilepic img {
   width: 250px;
+  border-radius: 50%;
 }
 
 img {
     display: block;
     margin: auto;
     width: 40%;
-    border-radius: 50%;
 
 }
+
+.card h3{
+  font-weight:500;
+  float:left;
+  margin:15px;
+  color:black;
+}
+
