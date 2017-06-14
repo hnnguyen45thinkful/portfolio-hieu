@@ -36,10 +36,9 @@ body {
 
 /*JUMBOTRON*/
 .jumbotron {
-  height: 100vh; /*height to 100% of view height*/
+  height: 650px; /*height to 100% of view height*/
   background: #31b0d5; /*background color to blue*/
   margin-bottom: 0; /*no bottom margin*/
-
   display: flex;
   flex-direction: column;
 }
@@ -50,7 +49,7 @@ body {
   font-size: 32px;
   color: white;
   text-align: center;
-  padding-top: 150px;
+  padding-top: 50px;
 }
 
 .jumbotron-text h1 {
@@ -308,3 +307,15 @@ img {
   color:black;
 }
 
+@media only screen and (max-width: 480px){
+  .jumbotron h1{
+    font-size:1.5em
+    }
+  .jumbotron h2
+  {
+    font-size:1em
+    }
+  .jumbotron a{
+    font-size:0.9em;
+    padding:5px 10px;}
+  }
