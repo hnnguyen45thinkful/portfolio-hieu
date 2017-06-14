@@ -290,13 +290,13 @@ h4 {
 
 
 button#download1 {
-    border-radius: 70px;
-    font-size: 30px;
-    position: relative;
-    top: 30px;
-   }
-
-button
+  background-color:white;
+  border-radius: 70px;
+  font-size: 25px;
+  position: relative;
+  top: 30px;
+  width: 29%;
+  }
 
 .white-text {
   color: white;
@@ -310,14 +310,12 @@ button
 .profilepic img {
   width: 210px;
   border-radius: 70%;
-  /* position: inherit; */
-  /* bottom: -22px; */
   height: 210px;
 }
 
 a.resume{ 
   text-decoration:none;
-  color:blue;
+  color:black;
   background-color:white 
  }
 
