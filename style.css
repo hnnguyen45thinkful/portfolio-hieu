@@ -177,6 +177,10 @@ h2 {
   flex: 1 1 auto;
 }
 
+.content-body2 p {
+  text-align: center;
+}
+
 h4 {
   margin: 0;
   font-weight: 400;
@@ -284,6 +288,16 @@ h4 {
   transition: .5s ease all;
 }
 
+
+button#download1 {
+    border-radius: 70px;
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+   }
+
+button
+
 .white-text {
   color: white;
 }
@@ -294,9 +308,18 @@ h4 {
 
 
 .profilepic img {
-  width: 250px;
-  border-radius: 50%;
+  width: 210px;
+  border-radius: 70%;
+  /* position: inherit; */
+  /* bottom: -22px; */
+  height: 210px;
 }
+
+a.resume{ 
+  text-decoration:none;
+  color:blue;
+  background-color:white 
+ }
 
 img {
     display: block;
@@ -312,15 +335,36 @@ img {
   color:black;
 }
 
+
+
 @media only screen and (max-width: 480px){
   .jumbotron h1{
-    font-size:1.5em
+    font-size:24px;
     }
   .jumbotron h2
   {
-    font-size:1em
+    font-size:16px;
     }
   .jumbotron a{
-    font-size:0.9em;
+    font-size:14px;
     padding:5px 10px;}
   }
+
+@media only screen and (max-width: 992px){
+  .jumbotron {
+    height:auto;
+    min-height:auto;
+    max-height:auto;
+    padding:100px 15px
+  }
+
+@media only screen and (max-width: 768px){
+  header{position:fixed;
+    display:none;
+    z-index:999;
+    -webkit-animation:none;
+    animation:none;bottom:0;
+    height:100%;
+  }
+
+
