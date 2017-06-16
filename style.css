@@ -314,19 +314,32 @@ button#download1 {
   width: 210px;
   border-radius: 70%;
   height: 210px;
+  position: relative;
+  bottom : 40px;
 }
 
 a.resume{ 
+  display:inline-block;
+  color:#fff;
+  padding:15px 25px;
+  border:3px solid #fff;
+  border-radius:30px;
+  -webkit-transition:.5s ease all;
+  transition:.5s ease all;
   text-decoration:none;
-  color:black;
-  background-color:white 
+  position: relative;
+  top: 25px;
  }
+
+a.resume:hover{
+  color:#3498db;
+  background:#fff;
+}
 
 img {
     display: block;
     margin: auto;
     width: 40%;
-
 }
 
 .card h3{
