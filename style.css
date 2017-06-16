@@ -362,7 +362,19 @@ img {
 }
 #contact-form{max-width:500px;margin:0 auto}
 
-#contact-form input,#contact-form textarea{display:block;width:100%;padding:10px;border-radius:4px;border:none;margin-bottom:10px;background:#1d6fa5;color:#fff;-webkit-transition:.5s ease all;transition:.5s ease all}
+#contact-form input,#contact-form textarea{
+  display:block;
+  width:100%;
+  padding:10px;
+  border-radius:4px;
+  border:none;
+  margin-bottom:10px;
+  background:#1d6fa5;
+  color:#fff;
+  -webkit-transition:.5s ease all;
+  transition:.5s ease all;
+  font-size: 20px;
+  }
 
 #contact-form input::-webkit-input-placeholder,
 
