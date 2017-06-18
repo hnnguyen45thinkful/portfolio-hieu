@@ -40,7 +40,7 @@ body {
 
 /*JUMBOTRON*/
 .jumbotron {
-  height: 650px; /*height to 100% of view height*/
+  height: 800px; /*height to 100% of view height*/
   background: #31b0d5; /*background color to blue*/
   margin-bottom: 0; /*no bottom margin*/
   display: flex;
@@ -223,13 +223,11 @@ h4 {
   border-bottom-left-radius: 5px;
 }
 
-.project-content {
-  flex: 1 1 auto;
-  padding: 20px;
-
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+#project-content {
+    float: left;
+    border: 2px solid grey;
+    position: relative;
+    bottom: 30px;
 }
 
 /*SKILLS*/
@@ -434,24 +432,18 @@ img {
     }
   .jumbotron a{
     font-size:14px;
-    padding:5px 10px;}
+    padding:5px 10px;
   }
+}
 
-@media only screen and (max-width: 992px){
-  .jumbotron {
-    height:auto;
-    min-height:auto;
-    max-height:auto;
-    padding:100px 15px
-  }
-
-@media only screen and (max-width: 768px){
-  header{position:fixed;
-    display:none;
-    z-index:999;
-    -webkit-animation:none;
-    animation:none;bottom:0;
-    height:100%;
-  }
-
+@media only screen and (max-width: 860px) {}
+#project-content {
+    
+    float: left;
+    border: 2px solid grey;
+    position: relative;
+    bottom: 30px;
+}
+}
+ 
 
