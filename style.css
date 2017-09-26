@@ -186,6 +186,7 @@ h2 {
 }
 
 h4 {
+  font-size: 20px;
   margin: 0;
   font-weight: 400;
   color: grey;
@@ -437,12 +438,12 @@ img {
   }
 }
 
-@media only screen and (max-width: 726px) {}
+@media only screen and (max-width: 726px) {
 #project-content {
-    
     float: left;
     border: 2px solid grey;
     position: relative;
+    padding: 20px;
     bottom: 30px;
 }
 }
