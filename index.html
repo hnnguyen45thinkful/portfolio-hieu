@@ -4,6 +4,10 @@
     <meta charset="utf-8">
     <title>Hieu Nguyen's Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="libraries/alertifyjs/css/alertify.min.css" />
+    <link rel="stylesheet" href="libraries/alertifyjs/css/themes/default.min.css" />
+    <script src="libraries/jquery/jquery.js"></script>
+    <script src="libraries/alertifyjs/alertify.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800" rel="stylesheet">
   </head>
   <body>
@@ -11,9 +15,9 @@
     <!-- BEGIN NAVBAR -->
     <div class="navbar">
       <a href="#about">About</a>
+      <a href="#projects">Projects</a>
       <a href="#experience">Experience</a>
       <a href="#education">Education</a>
-      <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
     </div>
@@ -26,7 +30,7 @@
         <div class="jumbotron-text">
           <h1>Hieu Ngoc Nguyen</h1>
           <p>Junior Web Developer in Riverside, California</p>
-          <button id="download1"><a class ="resume" href="files/resume.pdf" target="_blank">Download Resume</a></button>
+          <a class="resume" href="files/resume.PDF" target="_blank">Download Resume</a>
         </div>
         <div class="jumbotron-social">
           <ul class="ul-social">
@@ -37,10 +41,10 @@
               <a class="social" href="https://www.linkedin.com/in/hieu-nguyen-15765a118/" target="_blank"><img src="images/linkedin.png"></a>
             </li>
             <li class="li-social-links">
-              <a class="social" href="https://www.facebook.com/hnnguyen29" target="_blank"><img src="images/twitter.png"></a>
+              <a class="social" href="https://twitter.com/Hieungu79647710" target="_blank"><img src="images/twitter.png"></a>
             </li>
             <li class="li-social-links">
-              <a class="social" href="https://twitter.com/Hieungu79647710" target="_blank"><img src="images/facebook.png"></a>
+              <a class="social" href="https://www.facebook.com/hnnguyen29" target="_blank"><img src="images/facebook.png"></a>
             </li>
           </ul>
           <div class = "profilepic"><img src="images/profile.png"></div>
@@ -66,6 +70,65 @@
         <div class="side-content"></div>
       </div>
       <!-- END ABOUT -->
+<div class="row">
+        <div class="side-content-sm"></div>
+        <div class="main-content-lg">
+          <div class="content-header">
+            <a class="anchor" name="projects"></a>
+            <h2>Projects</h2>
+          </div>
+          <div class="content-body">
+          <!-- CARD #2 -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="images/node-cap2.jpg" style="width:950px; height: 450px;">
+
+              </div>
+            </div>
+            <div id="project-content">
+                <h4>Budget Tracker Project</h4>
+                <p>HTML5 | CSS3 | Javascript | MongoDB/Mongoose | EJS(Embedded Javascript) | Node.js </p>
+                <p>This is a budget tracker application to keep track of any expenses and also compare by looking how much bills were paid previous and before. Also, computes the current income and deducts from your current salary earnings. You can create, read, update, delete any bills to either keep or compare how much you have spend within a time frame.</p>
+                <a href="https://mysterious-escarpment-98389.herokuapp.com/">Demo</a>
+                <a href="https://github.com/hnnguyen45thinkful/final-node-cap/">GitHub Repo</a>
+              </div>
+            <!-- CARD #1 -->
+            <div class="project-card">
+              <div class="project-image"> 
+              
+              <img src="images/api-cap1.jpg" style="width:950px; height:450px;"> 
+  <!--             <img src="images/api-cap2.jpg" style="width:1050px; height:450px;">
+              <img src="images/api-cap3.jpg" style="width:1050px; height:450px;">
+              <img src="images/api-cap4.jpg" style="width:1050px; height:450px;">
+              <img src="images/api-cap5.jpg" style="width:1050px; height:450px;"> -->
+              </div>
+          </div>
+            <div id="project-content">
+                <h4>World Recipes Project</h4>
+                <p>HTML5 | CSS3 | Javascript | jQuery | Third-Party API </p>
+                <p>This is a food recipe application that generates results due to the user's allergies specification. There are 10 allergies to choose from Dairy-Free, Egg-Free, Gluten-Free, Peanut-Free, Seafood-Free, Sesame-Free, Soy-Free, Sulfite-Free, Tree Nut-Free, and Wheat-Free. Lastly, you can choose any cuisine from around the world along with any allergies that are chosen from one to all.</p>
+                <a href="https://hnnguyen45thinkful.github.io/api-cap-final-version/">Demo</a>
+                <a href="https://github.com/hnnguyen45thinkful/api-cap-final-version">GitHub Repo</a>
+              </div>
+            
+            <!-- CARD #3 -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="images/react-cap.jpg" style="width:950px; height:450px;">
+              </div>
+            </div>
+<div id="project-content">
+                <h4>Martial Art Decision Making Project</h4>
+                <p>HTML5 | CSS3 | Javascript | jQuery | React | GitHub </p>
+                <p>This is my decision making application on choosing the right martial arts. In this application once you answered the five questions, it will determine which discipline art to study and practice that can fit your needs. </p>
+                <a href="https://hnnguyen45thinkful.github.io/cap-react/">Demo</a>
+                <a href="https://github.com/hnnguyen45thinkful/cap-react/">GitHub Repo</a>
+              </div>
+          </div>
+        </div>
+        <div class="side-content-sm"></div>
+      </div>
+      <!-- END PROJECTS -->
 
       <!-- BEGIN EPERIENCE -->
       <div class="row">
@@ -166,55 +229,6 @@
       <!-- END EDUCATION -->
 
       <!-- BEGIN PROJECTS -->
-      <div class="row">
-        <div class="side-content-sm"></div>
-        <div class="main-content-lg">
-          <div class="content-header">
-            <a class="anchor" name="projects"></a>
-            <h2>Projects</h2>
-          </div>
-          <div class="content-body">
-            <!-- CARD #1 -->
-            <div class="project-card">
-              <div class="project-image">
-                <img src="images/api-cap.jpg" style="width:500px; height:350px;">
-              </div>
-              <div class="project-content">
-                <h4>API Capstone Project</h4>
-                <p>HTML5 | CSS3 | Javascript | jQuery | Third-Party API </p>
-                <p>This is a food recipe application that generates results due to the user's allergies specification. There are 10 allergies to choose from Dairy-Free, Egg-Free, Gluten-Free, Peanut-Free, Seafood-Free, Sesame-Free, Soy-Free, Sulfite-Free, Tree Nut-Free, and Wheat-Free. Lastly, you can choose any cuisine from around the world along with any allergies that are chosen from one to all.</p>
-                <a href="https://hnnguyen45thinkful.github.io/API-Capstone-Final/">Link Demo</a>
-              </div>
-            </div>
-            <!-- CARD #2 -->
-            <div class="project-card">
-              <div class="project-image">
-                <img src="images/node-cap.jpg" style="width:500px; height:350px;">
-              </div>
-              <div class="project-content">
-                <h4>Node Capstone Project</h4>
-                <p>HTML5 | CSS3 | Javascript | MongoDB/Mongoose | EJS(Embedded Javascript) | Node.js </p>
-                <p>This is a budget tracker application to keep track of any expenses and also compare by looking how much bills were paid previous and before. Also, computes the current income and deducts from your current salary earnings. You can create, read, update, delete any bills to either keep or compare how much you have spend within a time frame.</p>
-                <a href="https://afternoon-reaches-69472.herokuapp.com/">Link Demo</a>
-              </div>
-            </div>
-            <!-- CARD #3 -->
-            <div class="project-card">
-              <div class="project-image">
-                <img src="">
-              </div>
-              <div class="project-content">
-                <h4>React Capstone Project</h4>
-                <p>This is my decision making application on choosing the right martial arts. In this application once you answered the five questions, it will determine which discipline art to study and practice that can fit your needs. </p>
-                <a href="#">Link Demo</a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <div class="side-content-sm"></div>
-      </div>
-      <!-- END PROJECTS -->
 
       <!-- BEGIN SKILLS -->
       <div class="row white box-shadow">
@@ -253,19 +267,49 @@
       <!-- END SKILLS -->
 
       <!-- BEGIN CONTACT -->
-
-          <div id="contact">
+<!-- //formspree.io -->
+          <div class="container">
+            <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
+        <form action="https://formspree.io/hnnguyen45@gmail.com"
+      method="POST">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
+                <input type="email" id="inputEmail" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" id="inputMessage" placeholder="Your message" required></textarea>
                 <button type="submit">Send</button>
+        </form>
         </div>
         <!-- End #contact-form -->
     </div>
     <!-- End #contact -->
-
+<!-- 
+<div class="container">
+  <div class="row">
+      <form id="contact-form">
+        <div class="form-group center-block">
+          <label for="inputName">Name</label>
+          <input type="text" class="form-control contact-input" id="inputName" placeholder="Name" name="name">
+        </div>
+        <div class="form-group center-block">
+          <label for="inputEmail">Email</label>
+          <input type="email" class="form-control contact-input" id="inputEmail" placeholder="Email" name="email">
+        </div>
+        <div class="form-group center-block">
+          <label for="inputMessage">Message</label>
+          <textarea id="inputMessage" class="form-control contact-input" rows="3" placeholder="Your Message" name="message"></textarea>
+        </div>
+        <input type="text" name="_gotcha" class="display-none">
+        <div class="text-center">
+          <button class="btn btn-default" type="submit" id="email-submit-btn" value="Send">
+            Submit
+          </button>
+        </div>
+        <span></span>
+      </form>
+  </div>
+</div>
+ -->
       <!-- BEGIN FOOTER -->
       <div class="row">
         <div class="side-content"></div>
@@ -279,7 +323,13 @@
         <div class="side-content"></div>
       </div>
       <!-- END FOOTER -->
-
     </div>
+    <script src="js/app.js"></script>
   </body>
 </html>
+
+<!-- Revise
+1 - style the button in the header ////done 
+2 - add additional padding below your logo ///done
+3 - fix z-index of some of the header items so they don't overlap your top nav
+4 - make projects responsive (on mobile, image on top, text on bottom) -->
