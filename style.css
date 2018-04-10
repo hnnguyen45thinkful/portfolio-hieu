@@ -2,7 +2,7 @@ body {
   font-family: 'Raleway', sans-serif;
   background: rgba(242, 242, 242, 0.6);
   margin: 0;
-  width: 1350px;
+  width: auto;
 }
 
 * {
@@ -42,7 +42,7 @@ body {
 /*JUMBOTRON*/
 .jumbotron {
   height: 800px; /*height to 100% of view height*/
-  width: 1350px;
+  width: auto;
   background: #31b0d5; /*background color to blue*/
   margin-bottom: 0; /*no bottom margin*/
   display: flex;
