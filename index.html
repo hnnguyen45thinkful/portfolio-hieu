@@ -14,12 +14,19 @@
 
     <!-- BEGIN NAVBAR -->
     <div class="navbar">
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#experience">Experience</a>
-      <a href="#education">Education</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="btn_mobile_menu">
+      <span></span>      
+      <span></span>      
+      <span></span>      
     </div>
     <!-- END NAVBAR -->
 
@@ -55,75 +62,75 @@
 
 
       <!-- BEGIN ABOUT -->
-      <div class="row white box-shadow">
+      <div class="row" style="background: #f1f1f1;">
         <div class="side-content"></div>
         <div class="main-content">
-          <div class="content-header">
-            <a class="anchor" name="about"></a>
-            <h2>About</h2>
-          </div>
-          <div class="content-body">
-            <p>Hello, my name is Hieu Nguyen. I'm a Full-Stack Javascript Developer. I am very passionate about the industry of web developing and designing. And I am looking for an opportunity to be a junior position as a Front-End or Full Stack Developer. This is my personal portfolio website that I am building it from scratch and hosting. I've been coding and programming since last year (2016) and on, starting with HTML5 and CSS3, then Javascript Web development (in 2016-2017), eventually falling in love with Front-End Development and Back-End Development dynamic languages and frameworks since 2017.</p>
-            <p>Nowadays, I focus and honing my skills as a Front-End and/or Full-Stack Web Developer. I love to learn about new technologies, frameworks, crafting and experimenting making great applications and making the world a better place through the use of technology. I'm always up for learning new stuff and making sure I keep myself up to date.</p>
+          <div class="about_section">
+            <div class="content-header">
+              <a class="anchor" name="about"></a>
+              <h2>About</h2>
+            </div>
+            <div class="content-body">
+              <p>Hello, my name is Hieu Nguyen. I'm a Full-Stack Javascript Developer. I am very passionate about the industry of web developing and designing. And I am looking for an opportunity to be a junior position as a Front-End or Full Stack Developer. This is my personal portfolio website that I am building it from scratch and hosting. I've been coding and programming since last year (2016) and on, starting with HTML5 and CSS3, then Javascript Web development (in 2016-2017), eventually falling in love with Front-End Development and Back-End Development dynamic languages and frameworks since 2017.</p>
+              <p>Nowadays, I focus and honing my skills as a Front-End and/or Full-Stack Web Developer. I love to learn about new technologies, frameworks, crafting and experimenting making great applications and making the world a better place through the use of technology. I'm always up for learning new stuff and making sure I keep myself up to date.</p>
+            </div>
           </div>
         </div>
         <div class="side-content"></div>
       </div>
+
       <!-- END ABOUT -->
-<div class="row">
+      <div class="row" style="background: #ffffff;">
         <div class="side-content-sm"></div>
-        <div class="main-content-lg">
+        <div class="main-content projects_section">
           <div class="content-header">
             <a class="anchor" name="projects"></a>
             <h2>Projects</h2>
           </div>
           <div class="content-body">
-          <!-- CARD #2 -->
+            <!-- CARD #2 -->
+            <div id="project-content" class="project-content">
+              <h4>Budget Tracker Project</h4>
+              <p>HTML5 | CSS3 | Javascript | MongoDB/Mongoose | EJS(Embedded Javascript) | Node.js </p>
+              <p>This is a budget tracker application to keep track of any expenses and also compare by looking how much bills were paid previous and before. Also, computes the current income and deducts from your current salary earnings. You can create, read, update, delete any bills to either keep or compare how much you have spend within a time frame.</p>
+              <button class = btn><a href="https://mysterious-escarpment-98389.herokuapp.com/">Demo</a></button>&nbsp;
+              <button class = btn><a href="https://github.com/hnnguyen45thinkful/final-node-cap/">GitHub Repo</a></button>
+            </div>
             <div class="project-card">
               <div class="project-image">
-                <img src="images/node-cap2.jpg" style="width:950px; height: 450px;">
-
+                <img src="images/node-cap2.jpg">
               </div>
             </div>
-            <div id="project-content">
-                <h4>Budget Tracker Project</h4>
-                <p>HTML5 | CSS3 | Javascript | MongoDB/Mongoose | EJS(Embedded Javascript) | Node.js </p>
-                <p>This is a budget tracker application to keep track of any expenses and also compare by looking how much bills were paid previous and before. Also, computes the current income and deducts from your current salary earnings. You can create, read, update, delete any bills to either keep or compare how much you have spend within a time frame.</p>
-                <a href="https://mysterious-escarpment-98389.herokuapp.com/">Demo</a>
-                <a href="https://github.com/hnnguyen45thinkful/final-node-cap/">GitHub Repo</a>
-              </div>
+            <div class="clearfix"></div>
             <!-- CARD #1 -->
-            <div class="project-card">
-              <div class="project-image"> 
-              
-              <img src="images/api-cap1.jpg" style="width:950px; height:450px;"> 
-  <!--             <img src="images/api-cap2.jpg" style="width:1050px; height:450px;">
-              <img src="images/api-cap3.jpg" style="width:1050px; height:450px;">
-              <img src="images/api-cap4.jpg" style="width:1050px; height:450px;">
-              <img src="images/api-cap5.jpg" style="width:1050px; height:450px;"> -->
-              </div>
-          </div>
-            <div id="project-content">
-                <h4>World Recipes Project</h4>
-                <p>HTML5 | CSS3 | Javascript | jQuery | Third-Party API </p>
-                <p>This is a food recipe application that generates results due to the user's allergies specification. There are 10 allergies to choose from Dairy-Free, Egg-Free, Gluten-Free, Peanut-Free, Seafood-Free, Sesame-Free, Soy-Free, Sulfite-Free, Tree Nut-Free, and Wheat-Free. Lastly, you can choose any cuisine from around the world along with any allergies that are chosen from one to all.</p>
-                <a href="https://hnnguyen45thinkful.github.io/api-cap-final-version/">Demo</a>
-                <a href="https://github.com/hnnguyen45thinkful/api-cap-final-version">GitHub Repo</a>
-              </div>
-            
-            <!-- CARD #3 -->
+            <div id="project-content" class="project-content">
+              <h4>World Recipes Project</h4>
+              <p>HTML5 | CSS3 | Javascript | jQuery | Third-Party API</p>
+              <p>This is a food recipe application that generates results due to the user's allergies specification. There are 10 allergies to choose from Dairy-Free, Egg-Free, Gluten-Free, Peanut-Free, Seafood-Free, Sesame-Free, Soy-Free, Sulfite-Free, Tree Nut-Free, and Wheat-Free. Lastly, you can choose any cuisine from around the world along with any allergies that are chosen from one to all.</p>
+              <button class = "btn"><a href="https://hnnguyen45thinkful.github.io/cap-react/">Demo</a></button>&nbsp;
+              <button class = "btn"><a href="https://github.com/hnnguyen45thinkful/cap-react/">GitHub Repo</a></button>
+            </div>
             <div class="project-card">
               <div class="project-image">
-                <img src="images/react-cap.jpg" style="width:950px; height:450px;">
+                <img src="images/api-cap1.jpg">
               </div>
             </div>
-<div id="project-content">
-                <h4>Martial Art Decision Making Project</h4>
-                <p>HTML5 | CSS3 | Javascript | jQuery | React | GitHub </p>
-                <p>This is my decision making application on choosing the right martial arts. In this application once you answered the five questions, it will determine which discipline art to study and practice that can fit your needs. </p>
-                <a href="https://hnnguyen45thinkful.github.io/cap-react/">Demo</a>
-                <a href="https://github.com/hnnguyen45thinkful/cap-react/">GitHub Repo</a>
+            <div class="clearfix"></div>
+
+            <!-- CARD #3 -->
+            <div id="project-content" class="project-content">
+              <h4>Martial Art Decision Making Project</h4>
+              <p>HTML5 | CSS3 | Javascript | jQuery | React | GitHub </p>
+              <p>This is my decision making application on choosing the right martial arts. In this application once you answered the five questions, it will determine which discipline art to study and practice that can fit your needs. </p>
+              <button class = "btn"><a href="https://hnnguyen45thinkful.github.io/cap-react/">Demo</a></button>&nbsp;
+              <button class = "btn"><a href="https://github.com/hnnguyen45thinkful/cap-react/">GitHub Repo</a></button>
+            </div>
+            <div class="project-card">
+              <div class="project-image">
+                <img src="images/react-cap.jpg">
               </div>
+            </div>
+            <div class="clearfix"></div>
           </div>
         </div>
         <div class="side-content-sm"></div>
@@ -139,11 +146,11 @@
             <h2>Experience</h2>
           </div>
           <!-- CARD #1 -->
-          <div class="content-body">
+          <div class="content-body experience_section">
             <div class="card">
               <h3>Alvord Unified School District</h3>
               <div class="card-header">
-                <h4>K-12th Substitute Teacher<span class="job-title2">Aug. 2016 to Present</span></h4>
+                <h4>K-12th Substitute Teacher<br/><small>Aug. 2016 to Present</small></h4>
               </div>
               <div class="card-content">
                 <p>As a substitute teacher in the Riverside County area, my responsibilities were to follow the lesson plans, go over the expectations to the students that the school expects from them. I would accept and report to the school site on the AESOP online system and leave feedback for the permanent teacher how the day went. Lastly, I would follow the teacher's lesson plan left for that day and made sure I assessed the students and teach the California content standards. </p>
@@ -154,7 +161,7 @@
             <div class="card">
               <h3>Colton Joint Unified/San Bernardino City Unified School District</h3>
               <div class="card-header">
-                <h4>K-12th Substitute Teacher<span class="job-title2">Aug. 2010 to Present</span></h4>
+                <h4>K-12th Substitute Teacher<br/><small>Aug. 2010 to Present</small></h4>
               </div>
               <div class="card-content">
                 <p>As a substitute teacher in the San Bernardino County area, my responsibilities were to follow the lesson plans, take over teacher's duties before and/or after school, and report to the school site that accepted the job on the Eschools substitute system. Also, I have responsilibities make sure the safety of the students from beginning to the end of the day.</p>
@@ -166,7 +173,7 @@
             <div class="card">
             <h3>Rialto Unified School District</h3>
               <div class="card-header">
-                <h4>Mathematics Teacher<span class="job-title2">Aug. 2009 to June 2010</span></h4>
+                <h4>Mathematics Teacher<br/><small>Aug. 2009 to June 2010</small></h4>
               </div>
               <div class="card-content">
                 <p>I was a full-time mathematics teacher at Carter High School in Rialto, California. During that school year I taught geometry and geometry support classes for remedial students who took Algebra 1 and need the foundations of more resources and support in skills and foundations in Geometry to show how they relate to Algebra 1. </p>
@@ -179,20 +186,19 @@
       <!-- END EXPERIENCE -->
 
       <!-- BEGIN EDUCATION -->
-      <div class="row white box-shadow">
+      <div class="row">
         <div class="side-content"></div>
         <div class="main-content">
           <div class="content-header">
             <a class="anchor" name="education"></a>
             <h2>Education</h2>
           </div>
-          <div class="content-body">
-
+          <div class="content-body education_section">
             <!-- EDUCATION 1 -->
             <div class="card">
             <h3>Thinkful</h3>
               <div class="card-header">
-                <h4>Online Coding Bootcamp Flexible Program <span class="job-title">Aug. 2016 to June 2017</span></h4>
+                <h4>Online Coding Bootcamp Flexible Program <br/><small>Aug. 2016 to June 2017</small></h4>
               </div>
               <div class="card-content">
                 <p>An online coding bootcamp that has one to one mentorship in a structured curriculum to teach full stack javscript web development. I enrolled in the  Flexible Web Development Bootcamp which include personal mentor meetings, a custom-built curriculum, and daily mentor-hosted Q&A sessions open to all students.</p>
@@ -202,20 +208,19 @@
             <div class="card">
               <h3>University of California Riverside (UCR)</h3>
               <div class="card-header">
-                <h4> <span class="job-title">Aug. 2006 to June 2009</span>
-                <li>Bachelors of Science in Mathematics for Secondary Schools </li>
-                <li>Single Subject Teaching Credential SB2042 (Mathematics) </li>
+                <h4>Bachelors of Science in Mathematics for Secondary Schools </h4>
+                <h4>Single Subject Teaching Credential SB2042 (Mathematics) <br/><small>Aug. 2006 to June 2009</small></h4>
                 </h4>
               </div>
               <div class="card-content">
                 <p>I completed and transfered from RCC and finished my Bachelors course work and then went on to Graduate School of Education at UCR and enrolled to the single subject teaching credential. Then completed my teaching credential to follow up that year.</p>
               </div>
             </div>
-<!-- EDUCATION 3 -->
+            <!-- EDUCATION 3 -->
             <div class="card">
               <h3>Riverside Community College</h3>
               <div class="card-header">
-                <h4><span class="job-title">June 2003 to June 2006</span> <li>Associate of Science Degree in General Education</li></h4>
+                <h4>Associate of Science Degree in General Education <br/> <small>June 2003 to June 2006</small> </h4>
               </div>
               <div class="card-content">
                 <p> I started my college career at RCC and completed my prerequites in order to transfer to a 4 year college school. My major was mathematics and completed my required courses in order to start at junior and senior level of mathematics at a university.
@@ -227,8 +232,6 @@
         <div class="side-content"></div>
       </div>
       <!-- END EDUCATION -->
-
-      <!-- BEGIN PROJECTS -->
 
       <!-- BEGIN SKILLS -->
       <div class="row white box-shadow">
@@ -269,7 +272,7 @@
       <!-- BEGIN CONTACT -->
 <!-- //formspree.io -->
           <div class="container">
-            <div id="contact">
+            <div id="contact"  class="contact_section">
         <h2>Get in Touch</h2>
         <div id="contact-form">
         <form action="https://formspree.io/hnnguyen45@gmail.com"
