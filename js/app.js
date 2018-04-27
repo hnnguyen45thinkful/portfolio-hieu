@@ -11,7 +11,7 @@ $(document).ready(function() {
   $('.btn_mobile_menu').click(function(){
     if(menu_status==false){
       $('.navbar').addClass('show_menu');
-      $('.btn_mobile_menu').css('left', '190px');
+      $('.btn_mobile_menu').css('left', '0px');
       menu_status=true;
     }else{
       $('.navbar').removeClass('show_menu');
